@@ -141,7 +141,15 @@ button:hover{
     
 }
 
+.developerImage{
+    width: 12rem;
+    position: absolute;
+    top:-5rem;
+    right: 0;
+}
+
 .container{
+    position: relative;
     width:90%;
     max-width: 1100px;
     min-height: 100%;
