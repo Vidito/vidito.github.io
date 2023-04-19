@@ -160,6 +160,12 @@ nav{
     align-items: center;
 }
 
+.valid {
+    border:0;
+    width:88px;
+    height:31px;
+}
+
 .menuItems a{
     margin-left: 2rem;
 }
