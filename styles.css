@@ -137,10 +137,8 @@ button:hover{
 
 /* Containers */
 .wrapper{
-    margin: 4rem auto;
-    
+    margin: 7rem auto;
 }
-
 .developerImage{
     width: 12rem;
     position: absolute;
@@ -166,12 +164,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.valid {
-    border:0;
-    width:88px;
-    height:31px;
 }
 
 .menuItems a{
@@ -215,15 +207,17 @@ main{
   
 
 
+.burger{
+    display:none;
+    cursor: pointer;
+}
 
   /* Responsive */
 
 @media only screen and (max-width: 800px) {
-    
     .container{
         width: 100%;
     }
-    
     header {
       flex-direction: column;
     }
@@ -241,4 +235,20 @@ main{
         width: 44%;
         
     }
+    .burger{
+        display: block;
+    }
+    .menuItems{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        gap:1rem;
+        top:5%;
+        right: 20%;
+    }
+
+    .active{
+        display: flex;
+    }
+
 }
