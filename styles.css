@@ -226,4 +226,11 @@ main{
     hr{
         margin:0 auto;
     }
+    .headerButtons{
+        text-align: center;
+    }
+    .headerButtons button{
+        width: 44%;
+        
+    }
 }
